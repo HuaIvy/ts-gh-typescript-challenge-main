@@ -10,10 +10,10 @@ jobs:
     steps:
       - name: Checkout to Repo Directory
         uses: actions/checkout@v2
-      - name: Use Node.js 18.16.0
+      - name: Use Node.js 18.0.0
         uses: actions/setup-node@v2
         with:
-          node-version: "18.16.0"
+          node-version: "18.0.0"
       - name: NPM ci and cacheing
         uses: bahmutov/npm-install@v1
         with:
@@ -25,10 +25,10 @@ jobs:
     steps:
       - name: Checkout to Repo Directory
         uses: actions/checkout@v2
-      - name: Use Node.js 18.16.0
+      - name: Use Node.js 18.0.0
         uses: actions/setup-node@v2
         with:
-          node-version: "18.16.0"
+          node-version: "18.0.0"
       - name: Get Cache Node Module
         uses: bahmutov/npm-install@v1
         with:
